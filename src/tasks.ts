@@ -38,7 +38,7 @@ export class TaskList{
 
   add(task: string){
     this.list.push(task);
-    this.save()';'
+    this.save();
     this.render();
   }
 
